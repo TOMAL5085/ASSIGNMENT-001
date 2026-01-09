@@ -169,3 +169,64 @@
     transition: background 0.3s;
 }
 
+.notes-section {
+  padding: 100px 5%;
+  text-align: center;
+  background-color: #ffffff;
+}
+.notes-header h2 {
+  font-size: 42px;
+  font-weight: 800;
+  color: #0d1e2d;
+  margin-bottom: 15px;
+}
+.green-text-dark {
+  color: #49986b;
+}
+.notes-header p {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 60px;
+}
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.note-card {
+  background: #fdfdfd;
+  padding: 40px 30px;
+  border-radius: 12px;
+  border: 1px solid #f3f4f6;
+  transition: all 0.3s ease;
+}
+.note-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+}
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #ff6b6b; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+}
+.icon-circle img {
+  width: 28px;
+  filter: brightness(0) invert(1); 
+}
+.note-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0d1e2d;
+  margin-bottom: 15px;
+}
+.note-card p {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
