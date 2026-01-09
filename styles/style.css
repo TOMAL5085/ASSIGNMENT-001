@@ -55,3 +55,117 @@
     background-color: #3d7e59;
 }
 
+.hero-banner {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.hero-content {
+    max-width: 850px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+.early-access-badge {
+    display: inline-flex;
+    align-items: center;
+    background: #ffffff;
+    color: #49986b;
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.early-access-badge img {
+    height: 14px;
+    margin-right: 8px;
+}
+
+.hero-banner h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.green-text {
+    color: #57c58c;
+}
+
+.hero-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin-bottom: 35px;
+    padding: 0 10%;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-solid {
+    background-color: #49986b;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.btn-solid:hover {
+    background-color: #3d7e59;
+
+}
+
+.btn-icon {
+    height: 18px;
+    margin-left: 10px;
+}
+
+.btn-outline {
+    background: transparent;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid #ffffff;
+    transition: background 0.3s;
+}
+
