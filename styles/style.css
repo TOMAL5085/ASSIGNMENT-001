@@ -230,3 +230,61 @@
   line-height: 1.6;
 }
 
+.second-brain {
+  padding: 100px 10%;
+  background-color: #ffffff;
+}
+.second-brain .container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.brain-visual {
+  flex: 1;
+}
+.brain-visual img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+}
+.brain-content {
+  flex: 1;
+}
+.sub-heading {
+  color: #49986b;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 15px;
+}
+.brain-content h2 {
+  font-size: 42px;
+  font-weight: 800;
+  color: #0d1e2d;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+.brain-content p {
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.solution-list {
+  list-style: none;
+  padding: 0;
+}
+.solution-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0d1e2d;
+  margin-bottom: 15px;
+}
+.check-icon {
+  width: 20px;
+  height: 20px;
+}
